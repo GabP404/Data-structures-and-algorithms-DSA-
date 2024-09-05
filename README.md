@@ -9,7 +9,7 @@ Players receive feedback on whether characters in their guessed word are:
 - Present but misplaced.
 - Not present in the reference word.
 
-The project applies **efficient algorithms** and uses data structures such as **tries** and **hash tables** to handle large sets of words and ensure fast lookups, dynamic updates, and real-time feedback processing.
+The project applies **efficient algorithms** and uses data structures such as **tries** to handle large sets of words and ensure fast lookups, dynamic updates, and real-time feedback processing.
 
 ## Features
 
@@ -18,8 +18,4 @@ The project applies **efficient algorithms** and uses data structures such as **
 - **Dynamic word set management**: Supports adding new words to the set of valid guesses during the game.
 - **Learned constraints**: Filters valid guesses based on feedback from previous attempts.
 - **Error handling**: Provides meaningful output for invalid words (`not_exists` for guesses outside the valid set).
-
-## Data Structures and Algorithms (DSA)
-
-To achieve efficient word comparison and management, the project employs the following key data structures and algorithms like **trie (prefix tree)**
 
